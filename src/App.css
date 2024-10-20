@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+label{
+  font-size: 12px;
+}
+.app{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(225, 233, 241);
+}
+.app-nav{
+  width: 100%;
+}
+.ap-hero{
+  width: 80%;
+  margin: 3rem 0;
+ 
+}
+.ap-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
